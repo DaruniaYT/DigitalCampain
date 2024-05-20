@@ -7,15 +7,6 @@ permalink: /
 
 # Bienvenidos a la Wiki de la campaña de Dark Sun
 
-## Acceso rápido a las páginas
-
-<ul>
-  <li><a href="{{ site.baseurl }}/notas/Athas.html">Athas</a></li>
-  <li><a href="{{ site.baseurl }}/notas/LIBERTAD.html">LIBERTAD</a></li>
-  <li><a href="{{ site.baseurl }}/notas/Rey Hechicero.html">Rey Hechicero</a></li>
-  <!-- Añade más enlaces según sea necesario -->
-</ul>
-
 ## Recientemente actualizadas
 
 <ul>
