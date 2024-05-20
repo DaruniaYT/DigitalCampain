@@ -7,14 +7,7 @@ permalink: /
 
 # Wiki de la campaña de Dark Sun
 
-## Personajes y localizaciones
-<ul>
-  <li><a href="{{ site.baseurl }}/notas/athas.html">Athas (Mundo)</a></li>
-  <li><a href="{{ site.baseurl }}/notas/libertad.html">LIBERTAD (Aventura)</a></li>
-  <li><a href="{{ site.baseurl }}/notas/rey hechicero.html">Rey Hechicero (Villano)</a></li>
-</ul>
-
-### Cambios recientes
+## Cambios recientes
 
 <ul>
   {% assign recent_notes = site.notes | sort: "last_modified_at_timestamp" | reverse %}
