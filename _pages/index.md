@@ -5,9 +5,9 @@ id: home
 permalink: /
 ---
 
-# Bienvenidos a la Wiki de la campaña de Dark Sun
+# Wiki de la campaña de Dark Sun
 
-## Recientemente actualizadas
+## Personajes y eventos recientes
 
 <ul>
   {% assign recent_notes = site.notes | sort: "last_modified_at_timestamp" | reverse %}
