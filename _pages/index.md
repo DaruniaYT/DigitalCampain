@@ -4,7 +4,7 @@ title: Home
 id: home
 permalink: /
 ---
-
+![Encabezado](assets/encabezado.jpg)
 # Wiki de la campaña de Dark Sun
 
 ## Cambios recientes
