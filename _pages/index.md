@@ -7,7 +7,7 @@ permalink: /
 
 ![Encabezado](assets/encabezado.jpg)
 
-# Bienvenidos a la Wiki de la campaña de Dark Sun
+#Wiki de la campaña de Dark Sun
 
 ## Enlaces a las páginas
 
