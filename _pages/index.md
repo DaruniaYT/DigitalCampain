@@ -4,10 +4,22 @@ title: Home
 id: home
 permalink: /
 ---
-![Encabezado](assets/encabezado.jpg)
-# Wiki de la campaña de Dark Sun
 
-## Cambios recientes
+![Encabezado](assets/images/encabezado.jpg)
+
+# Bienvenidos a la Wiki de la campaña de Dark Sun
+
+## Enlaces a las páginas
+
+<ul>
+  {% for file in site.static_files %}
+    {% if file.path contains '/notas/' and file.extname == '.html' %}
+      <li><a href="{{ site.baseurl }}{{ file.path }}">{{ file.name | capitalize }}</a></li>
+    {% endif %}
+  {% endfor %}
+</ul>
+
+## Recientemente actualizadas
 
 <ul>
   {% assign recent_notes = site.notes | sort: "last_modified_at_timestamp" | reverse %}
